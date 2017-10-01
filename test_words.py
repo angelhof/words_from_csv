@@ -85,7 +85,7 @@ def prepare_known_words_dic(known_words):
 
 def is_known(word, known):
     if word in known:
-        if known[word] == known_threshold:
+        if known[word] >= known_threshold:
             return True
     return False
         

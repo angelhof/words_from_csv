@@ -6,7 +6,7 @@ Its argument should be the name of a csv file containing two header rows and 3 c
 
 
 Example:
-```python
+```
 Do you know: abhorrent
 
   -- Greek   Meaning: αποτρόπαιος, αποκρουστικός

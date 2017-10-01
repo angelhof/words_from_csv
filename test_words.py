@@ -4,7 +4,8 @@ import random
 
 known_words_file = "known_words"
 known_threshold = 3
-
+first_lang =  "Greek  "
+second_lang = "English"
 
 def main():
 
@@ -42,8 +43,8 @@ def main():
 def test_word(word):
     print("Do you know: %s" % (word[0]))
     sys.stdin.readline()
-    print("  -- Greek   Meaning: %s" % (word[1]))
-    print("  -- English Meaning: %s" % (word[2]))
+    print("  -- %s Meaning: %s" % (first_lang, word[1]))
+    print("  -- %s Meaning: %s" % (second_lang, word[2]))
     answer = sys.stdin.readline()
     if len(answer) == 0:
         exit(0)
